@@ -1,0 +1,322 @@
+Key	InBundleFile	BundleValue	UsedInFile
+******************************************************************* 
+menu.MainMenu	Bund	Main Menu	null
+menu.Setup	Bund	Set Up	null
+menu.Profile	Bund	Profile	null
+menu.Rate	Bund	Rate	null
+menu.Quotation	Bund	Quotation	null
+menu.Operation	Bund	Operation	null
+menu.Accounting	Bund	Accounting	null
+menu.HR	Bund	HR	null
+menu.Report	Bund	Report	null
+menu.Control	Bund	Control	null
+menu.Admin	Bund	Admin	null
+menu.Password	Bund	Password	null
+menu.Logout	Bund	Logout	null
+main.WelcomeTo	Bund	Welcome To	null
+main.XPCsystem	Bund	XPC express cargo system	null
+setup.Title	Bund	Setup	null
+setup.Region	Bund	Region	null
+setup.Country	Bund	Country	null
+setup.Branch	Bund	Branch	null
+setup.JobType	Bund	Job Type	null
+setup.StatusDefinition	Bund	Status Definition	null
+setup.PartnerType	Bund	Partner Type	null
+setup.ContainerType	Bund	Container Type	null
+setup.WeightType	Bund	Weight Type	null
+setup.Currency	Bund	Currency	null
+setup.ListRegion	Bund	List Region	null
+setup.AddRegion	Bund	Add Region	null
+setup.EditRegion	Bund	Edit Region	null
+setup.ListCountry	Bund	List Country	null
+setup.AddCountry	Bund	Add Country	null
+setup.EditCountry	Bund	Edit Country	null
+setup.ListBranch	Bund	List Branch	null
+setup.AddBranch	Bund	Add Branch	null
+setup.EditBranch	Bund	Edit Branch	null
+setup.ListJobType	Bund	List JobType	null
+setup.AddJobType	Bund	Add JobType	null
+setup.EditJobType	Bund	Edit JobType	null
+setup.ListStatusDefinition	Bund	List Status Definition	null
+setup.AddStatusDefinition	Bund	Add Status Definition	null
+setup.EditStatusDefinition	Bund	Edit Status Definition	null
+setup.ListPartnerType	Bund	List Partner Type	null
+setup.AddPartnerType	Bund	Add Partner Type	null
+setup.EditPartnerType	Bund	Edit Partner Type	null
+setup.ListContainerType	Bund	List Container Type	null
+setup.AddContainerType	Bund	Add Container Type	null
+setup.EditContainerType	Bund	Edit Container Type	null
+setup.ListWeightType	Bund	List Weight Type	null
+setup.AddWeightType	Bund	Add Weight Type	null
+setup.EditWeightType	Bund	Edit Weight Type	null
+setup.ListCurrency	Bund	List Currency Names	null
+setup.AddCurrency	Bund	Add Currency	null
+setup.EditCurrency	Bund	Edit Currency	null
+setup.Location	Bund	Location	null
+setup.TypeDefinition	Bund	Type Definition	null
+setup.Accounts	Bund	Accounts	null
+setup.Misc	Bund	Miscellaneous	null
+setup.InlandType	Bund	Inland Type	null
+setup.ListInlandType	Bund	List Inland Type	null
+setup.AddInlandType	Bund	Add Inland Type	null
+setup.EditInlandType	Bund	Edit Inland Type	null
+setup.AccountCategory	Bund	Account Category	null
+setup.AccountType	Bund	Account Type	null
+setup.AccountGroup	Bund	Account Group	null
+setup.Account	Bund	Account	null
+setup.TaxGroup	Bund	Tax Group 	null
+setup.AccountExtension	Bund	Account Extension 	null
+setup.PrinterSetup	Bund	Printer Setup 	null
+setup.findCurrency	Bund	Search Currency	null
+setup.listCurrency	Bund	List Currency	null
+setup.ListAccountGroup	Bund	List Account Group 	null
+ListAccountGroup	Bund	List Account Group 	null
+setup.AddAccountGroup	Bund	Add Account Group 	null
+AddAccountGroup	Bund	Add Account Group 	null
+EditAccountGroup	Bund	Edit Account Group 	null
+setup.AddAccountCategory	Bund	Add Account Category 	null
+setup.ListAccountCategory	Bund	List Account Category 	null
+setup.EditAccountCategory	Bund	Edit Account Category 	null
+setup.AddAccountExtension	Bund	Add Account Extension 	null
+setup.ListAccountExtension	Bund	List Account Extension 	null
+setup.EditAccountExtension	Bund	Edit Account Extension 	null
+AddAccountExtension	Bund	Add Account Extension 	null
+ListAccountExtension	Bund	List Account Extension 	null
+setup.AddAccountType	Bund	Add Account Type 	null
+setup.ListAccountType	Bund	List Account Type 	null
+setup.EditAccountType	Bund	Edit Account Type 	null
+AddAccountType	Bund	Add Account Type 	null
+ListAccountType	Bund	List Account Type 	null
+setup.AddAccount	Bund	Add Account 	null
+setup.ListAccount	Bund	List Account 	null
+setup.EditAccount	Bund	Edit Account 	null
+AddAccount	Bund	Add Account	null
+ListAccounts	Bund	List Accounts 	null
+setup.ListTaxGroupItem	Bund	List Tax Group Item	null
+setup.ListTaxGroup	Bund	List Tax Group Item	null
+setup.AddTaxGroupItem	Bund	Add Tax Group Item	null
+setup.AddTaxGroup	Bund	Add Tax Group	null
+setup.EditTaxGroupItem	Bund	Edit Tax Group Item	null
+setup.EditTaxGroup	Bund	Edit Tax Group	null
+setup.TaxGroupItem	Bund	 Tax Group Item	null
+setup.NoteType	Bund	Note Type	null
+setup.AddNoteType	Bund	Add Note Type	null
+setup.ListNoteType	Bund	List Note Type	null
+setup.EditNoteType	Bund	Edit Note Type	null
+setup.ListPrinter	Bund	 List Printer 	null
+setup.listPrinter	Bund	 Printer List	null
+setup.findPrinter	Bund	Search Printer	null
+SearchPrinter	Bund	Search Printer	null
+setup.AddPrinter	Bund	Add Printer	null
+setup.EditPrinter	Bund	Edit Printer	null
+setup.Printer	Bund	Printer	null
+profile.CustomerDetail	Bund	Customer Information	null
+profile.SearchCustomer	Bund	Search Customer	null
+profile.Vendor	Bund	Vendor	null
+profile.AddVendor	Bund	Add Vendor	null
+profile.EditVendor	Bund	Edit Vendor	null
+profile.VendorDetail	Bund	Vendor Information	null
+profile.ListVendor	Bund	List Vendor	null
+profile.NotifyParty	Bund	Notify Party	null
+profile.ListNotifyParty	Bund	List Notify Party	null
+profile.EditNotifyParty	Bund	Edit Notify Party	null
+profile.SearchNotifyParty	Bund	Search Notify Party	null
+profile.NotifyPartyDetail	Bund	Notify Party Information	null
+profile.Port	Bund	Port	null
+profile.ListPort	Bund	List Ports	null
+profile.listPort	Bund	List Ports	null
+profile.EditPort	Bund	Edit Port	null
+profile.AddPort	Bund	Add Port	null
+profile.findPort	Bund	Search Port	null
+profile.ExchangeRate	Bund	Exchange Rate	null
+profile.findExchangeRate	Bund	Search Exchange Rate	null
+profile.AddExchangeRate	Bund	Add Exchange Rate	null
+profile.EditExchangeRate	Bund	Edit Exchange Rate	null
+profile.ListExchangeRate	Bund	List Exchange Rate	null
+profile.listExchangeRate	Bund	List Exchange Rate	null
+rate.Title	Bund	Rate	null
+rate.VendorRate	Bund	Vendor Rate	null
+rate.ListVendorRate	Bund	List Vendor Rate	null
+rate.AddVendorRate	Bund	Add Vendor Rate	null
+rate.FreightRate	Bund	Freight Rate	null
+rate.EditFreightRate	Bund	Edit Freight Rate	null
+rate.AddFreightRate	Bund	Add Freight Rate	null
+rate.NewFreightRate	Bund	New Freight Rate	null
+rate.findFreightRate	Bund	Search Freight Rate	null
+rate.listFreightRate	Bund	List Freight Rates	null
+rate.ListFreightRate	Bund	List Freight Rates	null
+rate.VendorGuide	Bund	Vendor Guide	null
+rate.NewVendorGuide	Bund	Add Vendor Guide	null
+rate.FreightGuide	Bund	Freight Guide	null
+rate.NewFreightGuide	Bund	New Freight Guide	null
+rate.ListFreightGuide	Bund	List Freight Guide	null
+rate.EditFreightGuide	Bund	Edit Freight Guide	null
+rate.FindFreightGuide	Bund	Search Freight Guide	null
+rate.AddFreightGuide	Bund	Add Freight Guide	null
+rate.OtherRate	Bund	Other Rate	null
+rate.ListOtherRate	Bund	List Other Rate	null
+rate.findOtherRate	Bund	Search Other Rate	null
+rate.AddOtherRate	Bund	Add Other Rate	null
+rate.NewOtherRate	Bund	New Other Rate	null
+rate.EditOtherRate	Bund	Edit Other Rate	null
+rate.OtherGuide	Bund	Other Guide	null
+rate.ListOtherGuide	Bund	List Other Guide	null
+rate.findOtherGuide	Bund	Search Other Guide	null
+rate.AddOtherGuide	Bund	Add Other Guide	null
+rate.NewOtherGuide	Bund	New Other Guide	null
+rate.EditOtherGuide	Bund	Edit Other Guide	null
+rate.GuideMapping	Bund	Guide Mapping	null
+rate.ListGuideMapping	Bund	List Guide Mapping	null
+rate.AddGuideMapping	Bund	Add Guide Mapping	null
+rate.NewGuideMapping	Bund	NewGuide Mapping	null
+rate.findGuideMapping	Bund	Search Guide Mapping	null
+rate.EditGuideMapping	Bund	Edit Guide Mapping	null
+h_r.Title	Bund	Human Resources	null
+h_r.Employee	Bund	Employee	null
+h_r.ListEmployee	Bund	List Employee	null
+h_r.AddEmployee	Bund	Add New Employee	null
+h_r.EditEmployee	Bund	Edit Employee Information	null
+h_r.SearchEmployee	Bund	Search Employee	null
+h_r.PositionHistory	Bund	Position History 	null
+h_r.EditPosition	Bund	Edit Employee Position Information	null
+h_r.AddPosition	Bund	Add New Employee Position 	null
+admin.Title	Bund	Admin	null
+ListUser	Bund	List Users	null
+AddUser	Bund	Add User	null
+EditUser	Bund	Edit User	null
+Group	Bund	Group	null
+AddGroup	Bund	Add Group	null
+EditGroup	Bund	Edit Group	null
+ListGroup	Bund	List Group	null
+GroupNest	Bund	Nested Group	null
+AddGroupNest	Bund	Add Nested Group	null
+EditGroupNest	Bund	Edit Nested Group	null
+ListGroupNest	Bund	List Nested Group	null
+GroupMember	Bund	Group Member	null
+AddGroupMember	Bund	Add Group Member	null
+EditGroupMember	Bund	Edit Group Member	null
+ListGroupMember	Bund	List Group Member	null
+FamilyName	Bund	Family Name	null
+GivenName	Bund	Given Name	null
+Position	Bund	Position	null
+LoginName	Bund	Login Name	null
+Gender	Bund	Gender	null
+Title	Bund	Title	null
+BirthDate	Bund	Birth Date	null
+SIN	Bund	SIN	null
+StartDate	Bund	Start Date	null
+Salary1	Bund	Salary 1	null
+Salary2	Bund	Salary 2	null
+CommissionRate	Bund	Commission Rate	null
+operation.Title	Bund	Operation	null
+operation.EditHBL	Bund	Edit HBL	null
+operation.SearchHBL	Bund	Search HBL	null
+operation.SearchHAWB	Bund	Search HAWB	null
+operation.SearchSI	Bund	Search SI	null
+operation.SearchBK	Bund	Search BK	null
+operation.ListHBL	Bund	HBL List	null
+operation.ListHAWB	Bund	HAWB List	null
+operation.ListSI	Bund	Shipping Instruction List	null
+operation.ListBK	Bund	Booking Request List	null
+operation.SearchMBL	Bund	Search MBL	null
+operation.SearchMAWB	Bund	Search MAWB	null
+operation.ListMAWB	Bund	MAWB List	null
+operation.ListMBL	Bund	MBL List	null
+operation.AddNewHBL	Bund	Create New HBL	null
+operation.AddNewMBL	Bund	Create New MBL	null
+operation.AddNewHAWB	Bund	Create New HAWB	null
+operation.AddNewMAWB	Bund	Create New MAWB	null
+operation.DocumentMenu	Bund	Document Menu	null
+operation.FindBKForManifest	Bund	Search BL For Manifest 	null
+operation.FindBKForSplitRequest	Bund	Search BL For SplitRequest	null
+operation.FindSIForArrivalNotice	Bund	Search House Bill For ArrivalNotice 	null
+operation.FindSIForNote	Bund	Search House Bill For Note	null
+operation.ArrivalNoticePreview	Bund	ArrivalNotice Preview	null
+operation.DeliveryProofPreview	Bund	DeliveryProof Preview	null
+operation.ManifestPreview	Bund	Manifest Preview	null
+operation.NotePreview	Bund	Note Preview	null
+operation.SplitRequestPreview	Bund	SplitRequest Preview	null
+operation.ContainerInfo	Bund	Container Information	null
+SeaExport	Bund	Sea Export	null
+AirExport	Bund	Air Export	null
+SeaImport	Bund	Sea Import	null
+AirImport	Bund	Air Import	null
+MainOperation	Bund	Main Operation	null
+ShippingInstruction	Bund	Shipping Instruction	null
+BookingRequest	Bund	Booking Request	null
+SpecialJobs	Bund	Special Jobs	null
+Documents	Bund	Documents	null
+JobAccounting	Bund	Job Accounting	null
+MAWBDocument	Bund	MAWB Documnet	null
+HAWBDocument	Bund	HAWB Documnet	null
+CustomerID	Bund	Customer ID	null
+ShortName	Bund	Short Name	null
+SalesPersonID	Bund	SalesPersonID	null
+CustomerType	Bund	Customer Type	null
+Select	Bund	Select	null
+ID	Bund	ID	null
+Name	Bund	Name 	null
+City	Bund	City	null
+Phone	Bund	Phone	null
+Phone1	Bund	Phone 1	null
+Phone2	Bund	Phone 2	null
+Type	Bund	Type	null
+CreateDate	Bund	Create Date	null
+ContactPerson	Bund	ContactPerson	null
+CellPhone	Bund	Cell Phone	null
+Line1	Bund	Address Line 1	null
+Fax	Bund	Fax	null
+Line2	Bund	Address Line 2	null
+Email	Bund	Email	null
+WebSite	Bund	WebSite	null
+Province	Bund	Province	null
+PostCode	Bund	Postal Code	null
+ModifyDate	Bund	Modify Date	null
+Country	Bund	Country	null
+Region	Bund	Region	null
+AccountID	Bund	Account ID	null
+ConsigneeName	Bund	Consignee Name	null
+BranchCode	Bund	Branch Code	null
+BranchName	Bund	Branch Name	null
+ContainerType	Bund	Container Type	null
+Description	Bund	Description 	null
+Definition	Bund	Definition	null
+Category	Bund	Category	null
+RegionCode	Bund	Region Code	null
+StatusName	Bund	Status Name	null
+StatusValue	Bund	Status Value	null
+WeightType	Bund	Weight Type	null
+ISOCode	Bund	ISO Code	null
+CurrencyName	Bund	Currency Name	null
+Shipper	Bund	Shipper	null
+Date	Bund	Date	null
+Consignee	Bund	Consignee	null
+Notify	Bund	Notify Party	null
+PlaceOfIssue	Bund	Place of Issue	null
+DateOfIssue	Bund	Date Of Issue	null
+LoadPort	Bund	Port of Loading	null
+DischargePort	Bund	Port of Discharge	null
+ReceiptPlace	Bund	Place of Receipt	null
+DeliveryPlace	Bund	Place of Delivery	null
+FinalDest	Bund	Final Destination (for Merchant's Use Only)	null
+FinalDest_Short	Bund	Final Destination	null
+StuffDate	Bund	Stuffing Date	null
+FreightStatus	Bund	Freight Status	null
+SalesPerson	Bund	Sales Person	null
+NumOriginal	Bund	Number Of Originals	null
+NumberOfContainer	Bund	Number of Container	null
+CheckIfLCL	Bund	Check If LCL	null
+Particular	Bund	PARTICULARS FURNISHED BY SHIPPER	null
+PONo	Bund	PO No.	null
+ShipperSINo	Bund	Shipper's SI #	null
+InfoOfFreight	Bund	Information of Freight	null
+NoOfPkgs	Bund	No of Pkgs	null
+UnitOfPkgs	Bund	Unit of Pkgs	null
+NetWeight	Bund	Net Weight	null
+GrossWeight	Bund	Gross Weight	null
+Measurement	Bund	Measurement	null
+Commodity	Bund	Commodity	null
+MarksAndNumbers	Bund	Marks And Numbers	null
+DescriptionOfPackagesAndGoods	Bund	Description of Packages and Goods	null
+Loading	Bund	Loading Data ...	null
+OneMoment	Bund	One Moment Please	null

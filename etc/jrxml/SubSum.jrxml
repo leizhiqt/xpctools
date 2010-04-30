@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+  <!-- Created using JasperAssistant (http://www.jasperassistant.com) --> 
+  <!DOCTYPE jasperReport PUBLIC "-//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd"> 
+   
+  <jasperReport name="JobSumReportSub"  pageWidth="828" pageHeight="595"  columnWidth="515" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0"> 
+  	<reportFont name="Arial_Normal" isDefault="true" fontName="Arial" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/> 
+  	<reportFont name="Arial_Bold" isDefault="false" fontName="Arial" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica-Bold" pdfEncoding="Cp1252" isPdfEmbedded="false"/> 
+  	<reportFont name="Arial_Italic" isDefault="false" fontName="Arial" size="8" isBold="false" isItalic="true" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica-Oblique" pdfEncoding="Cp1252" isPdfEmbedded="false"/> 
+  	<field name="DSSubTotalsNoteNo" class="java.lang.String"> 
+  		<fieldDescription>./NoteNo</fieldDescription> 
+  	</field> 
+  	<field name="DSSubTotalsAddressTo" class="java.lang.String"> 
+  		<fieldDescription>./AddressTo</fieldDescription> 
+  	</field> 
+  	<field name="DSSubRowsNoteType" class="java.lang.String"> 
+  		<fieldDescription>./NoteType</fieldDescription> 
+  	</field> 
+  	<field name="DSSubTotalsNoteType" class="java.lang.String"> 
+  		<fieldDescription>./NoteType</fieldDescription> 
+  	</field> 
+  	<field name="DSSubTotalsIsPosted" class="java.lang.String"> 
+  		<fieldDescription>./IsPosted</fieldDescription> 
+  	</field> 
+  	<field name="DSSubTotalsRevenue" class="java.lang.String"> 
+  		<fieldDescription>./Revenue</fieldDescription> 
+  	</field> 
+  	<field name="DSSubTotalsExpense" class="java.lang.String"> 
+  		<fieldDescription>./Expense</fieldDescription> 
+  	</field> 
+  	<field name="DSSubTotalsReceived" class="java.lang.String"> 
+  		<fieldDescription>./Received</fieldDescription> 
+  	</field> 
+  	<field name="DSSubTotalsPaid" class="java.lang.String"> 
+  		<fieldDescription>./Paid</fieldDescription> 
+  	</field> 
+  	<field name="Currency" class="java.lang.String"> 
+  		<fieldDescription><![CDATA[Currency]]></fieldDescription> 
+  	</field>
+
+  	<detail> 
+  		<band height="18"> 
+  			<rectangle> 
+  				<reportElement x="0" y="2" width="748" height="14" forecolor="#33cccc" backcolor="#33cccc"/> 
+  				<graphicElement pen="Thin"/> 
+  			</rectangle> 
+  			<textField isBlankWhenNull="true" isStretchWithOverflow="true"> 
+  				<reportElement x="0" y="2" width="74" height="10"/> 
+  				<textElement textAlignment="Center"/> 
+  				<textFieldExpression class="java.lang.String"><![CDATA[$F{DSSubTotalsNoteNo}]]></textFieldExpression> 
+  			</textField> 
+  			<textField isBlankWhenNull="true" isStretchWithOverflow="true"> 
+  				<reportElement x="74" y="2" width="74" height="10"/> 
+  				<textElement textAlignment="Center"/> 
+  				<textFieldExpression class="java.lang.String"><![CDATA[$F{DSSubTotalsAddressTo}]]></textFieldExpression> 
+  			</textField> 
+  			<textField isBlankWhenNull="true" isStretchWithOverflow="true"> 
+  				<reportElement x="148" y="2" width="92" height="10"/> 
+  				<textElement textAlignment="Center"/> 
+  				<textFieldExpression class="java.lang.String"><![CDATA[$F{DSSubTotalsNoteType}]]></textFieldExpression> 
+  			</textField> 
+  			<textField isBlankWhenNull="true" isStretchWithOverflow="true"> 
+  				<reportElement x="240" y="2" width="20" height="10"/> 
+  				<textElement textAlignment="Center"/> 
+  				<textFieldExpression class="java.lang.String"><![CDATA[$F{DSSubTotalsIsPosted}]]></textFieldExpression> 
+  			</textField> 
+  			<textField isBlankWhenNull="true" isStretchWithOverflow="true"> 
+  				<reportElement x="260" y="2" width="122" height="10"/> 
+  				<textElement textAlignment="Center"/> 
+  				<textFieldExpression class="java.lang.String"><![CDATA[$F{DSSubTotalsRevenue}]]></textFieldExpression> 
+  			</textField> 
+  			<textField isBlankWhenNull="true" isStretchWithOverflow="true"> 
+  				<reportElement x="382" y="2" width="122" height="10"/> 
+  				<textElement textAlignment="Center"/> 
+  				<textFieldExpression class="java.lang.String"><![CDATA[$F{DSSubTotalsExpense}]]></textFieldExpression> 
+  			</textField> 
+  			<textField isBlankWhenNull="true" isStretchWithOverflow="true"> 
+  				<reportElement x="504" y="2" width="122" height="10"/> 
+  				<textElement textAlignment="Center"/> 
+  				<textFieldExpression class="java.lang.String"><![CDATA[$F{DSSubTotalsReceived}]]></textFieldExpression> 
+  			</textField> 
+  			<textField isBlankWhenNull="true" isStretchWithOverflow="true"> 
+  				<reportElement x="626" y="2" width="122" height="10"/> 
+  				<textElement textAlignment="Center"/> 
+  				<textFieldExpression class="java.lang.String"><![CDATA[$F{DSSubTotalsPaid}]]></textFieldExpression> 
+  			</textField> 
+  		</band> 
+  	</detail> 
+  </jasperReport> 
+ 

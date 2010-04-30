@@ -1,0 +1,6 @@
+Version1.1 2006.04~2007.2
+
+根据BlendFile查找jsp中相对应Message Key
+
+运行命令:
+java -cp `pwd`/classes org.mycoz.tools.Find 

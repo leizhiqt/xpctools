@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+  <!-- Created using JasperAssistant (http://www.jasperassistant.com) --> 
+  <!DOCTYPE jasperReport PUBLIC "-//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd"> 
+   
+  <jasperReport name="CashBankReport"  pageWidth="812" pageHeight="595" orientation="Landscape"  columnWidth="515" leftMargin="40" rightMargin="40" topMargin="50" bottomMargin="50"> 
+  	<reportFont name="Arial_Normal" isDefault="true" fontName="Arial" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="/usr/local/share/fonts/CJSONGEB.TTF" pdfEncoding="Identity-H" isPdfEmbedded="false"/> 
+  	<reportFont name="Arial_Bold" isDefault="false" fontName="Arial" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica-Bold" pdfEncoding="Cp1252" isPdfEmbedded="false"/> 
+  	<reportFont name="Arial_Italic" isDefault="false" fontName="Arial" size="8" isBold="false" isItalic="true" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica-Oblique" pdfEncoding="Cp1252" isPdfEmbedded="false"/> 
+  	<field name="AccountTypeNames" class="java.lang.String"> 
+  		<fieldDescription><![CDATA[AccountTypeNames]]></fieldDescription> 
+  	</field> 
+  	<field name="CashIDR" class="java.lang.String"> 
+  		<fieldDescription><![CDATA[CashIDR]]></fieldDescription> 
+  	</field> 
+  	<field name="CitibankRp" class="java.lang.String"> 
+  		<fieldDescription><![CDATA[CitibankRp]]></fieldDescription> 
+  	</field> 
+  	<field name="BII-339" class="java.lang.String"> 
+  		<fieldDescription><![CDATA[BII-339]]></fieldDescription> 
+  	</field> 
+  	<field name="CitibankUSD" class="java.lang.String"> 
+  		<fieldDescription><![CDATA[CitibankUSD]]></fieldDescription> 
+  	</field> 
+  	<field name="CashUSD" class="java.lang.String"> 
+  		<fieldDescription><![CDATA[CashUSD]]></fieldDescription> 
+  	</field> 
+  	<title> 
+  		<band height="60"> 
+  			<staticText> 
+  				<reportElement x="0" y="5" width="732" height="30"/> 
+  				<textElement textAlignment="Center"> 
+  					<font reportFont="Arial_Normal" size="20"/> 
+  				</textElement> 
+  				<text><![CDATA[CashBank Report]]></text> 
+  			</staticText> 
+  			<staticText> 
+  				<reportElement x="0" y="35" width="732" height="15"/> 
+  				<textElement textAlignment="Center"> 
+  					<font reportFont="Arial_Normal" size="10"/> 
+  				</textElement> 
+  				<text><![CDATA[For Report  from 2005-07-12 to 2005-07-12]]></text> 
+  			</staticText> 
+  			<line> 
+  				<reportElement x="0" y="55" width="732" height="1"/> 
+  				<graphicElement/> 
+  			</line> 
+  		</band> 
+  	</title> 
+  	<pageHeader> 
+  		<band height="18"> 
+  			<rectangle> 
+  				<reportElement x="0" y="2" width="732" height="14" forecolor="#ccffff" backcolor="#ccffff"/> 
+  				<graphicElement pen="None"/> 
+  			</rectangle> 
+  			<staticText> 
+  				<reportElement mode="Opaque" x="0" y="2" width="122" height="14" backcolor="#ccffff"/> 
+  				<textElement textAlignment="Center"> 
+  					<font reportFont="Arial_Bold"/> 
+  				</textElement> 
+  				<text><![CDATA[AccountTypeNames]]></text> 
+  			</staticText> 
+  			<staticText> 
+  				<reportElement mode="Opaque" x="122" y="2" width="122" height="14" backcolor="#ccffff"/> 
+  				<textElement textAlignment="Center"> 
+  					<font reportFont="Arial_Bold"/> 
+  				</textElement> 
+  				<text><![CDATA[CashIDR]]></text> 
+  			</staticText> 
+  			<staticText> 
+  				<reportElement mode="Opaque" x="244" y="2" width="122" height="14" backcolor="#ccffff"/> 
+  				<textElement textAlignment="Center"> 
+  					<font reportFont="Arial_Bold"/> 
+  				</textElement> 
+  				<text><![CDATA[CitibankRp]]></text> 
+  			</staticText> 
+  			<staticText> 
+  				<reportElement mode="Opaque" x="366" y="2" width="122" height="14" backcolor="#ccffff"/> 
+  				<textElement textAlignment="Center"> 
+  					<font reportFont="Arial_Bold"/> 
+  				</textElement> 
+  				<text><![CDATA[BII-339]]></text> 
+  			</staticText> 
+  			<staticText> 
+  				<reportElement mode="Opaque" x="488" y="2" width="122" height="14" backcolor="#ccffff"/> 
+  				<textElement textAlignment="Center"> 
+  					<font reportFont="Arial_Bold"/> 
+  				</textElement> 
+  				<text><![CDATA[CitibankUSD]]></text> 
+  			</staticText> 
+  			<staticText> 
+  				<reportElement mode="Opaque" x="610" y="2" width="122" height="14" backcolor="#ccffff"/> 
+  				<textElement textAlignment="Center"> 
+  					<font reportFont="Arial_Bold"/> 
+  				</textElement> 
+  				<text><![CDATA[CashUSD]]></text> 
+  			</staticText> 
+  		</band> 
+  	</pageHeader> 
+  	<detail> 
+  		<band height="14"> 
+  			<textField isBlankWhenNull="true" isStretchWithOverflow="true"> 
+  				<reportElement x="0" y="2" width="122" height="10"/> 
+  				<textElement textAlignment="Center"/> 
+  				<textFieldExpression class="java.lang.String"><![CDATA[$F{AccountTypeNames}]]></textFieldExpression> 
+  			</textField> 
+  			<textField isBlankWhenNull="true" isStretchWithOverflow="true"> 
+  				<reportElement x="122" y="2" width="122" height="10"/> 
+  				<textElement textAlignment="Center"/> 
+  				<textFieldExpression class="java.lang.String"><![CDATA[$F{CashIDR}]]></textFieldExpression> 
+  			</textField> 
+  			<textField isBlankWhenNull="true" isStretchWithOverflow="true"> 
+  				<reportElement x="244" y="2" width="122" height="10"/> 
+  				<textElement textAlignment="Center"/> 
+  				<textFieldExpression class="java.lang.String"><![CDATA[$F{CitibankRp}]]></textFieldExpression> 
+  			</textField> 
+  			<textField isBlankWhenNull="true" isStretchWithOverflow="true"> 
+  				<reportElement x="366" y="2" width="122" height="10"/> 
+  				<textElement textAlignment="Center"/> 
+  				<textFieldExpression class="java.lang.String"><![CDATA[$F{BII-339}]]></textFieldExpression> 
+  			</textField> 
+  			<textField isBlankWhenNull="true" isStretchWithOverflow="true"> 
+  				<reportElement x="488" y="2" width="122" height="10"/> 
+  				<textElement textAlignment="Center"/> 
+  				<textFieldExpression class="java.lang.String"><![CDATA[$F{CitibankUSD}]]></textFieldExpression> 
+  			</textField> 
+  			<textField isBlankWhenNull="true" isStretchWithOverflow="true"> 
+  				<reportElement x="610" y="2" width="122" height="10"/> 
+  				<textElement textAlignment="Center"/> 
+  				<textFieldExpression class="java.lang.String"><![CDATA[$F{CashUSD}]]></textFieldExpression> 
+  			</textField> 
+  		</band> 
+  	</detail> 
+  	<pageFooter> 
+  		<band height="40"> 
+  			<line> 
+  				<reportElement x="0" y="10" width="732" height="1"/> 
+  				<graphicElement/> 
+  			</line> 
+  			<textField> 
+  				<reportElement x="200" y="20" width="80" height="14"/> 
+  				<textElement textAlignment="Right"/> 
+  				<textFieldExpression class="java.lang.String"><![CDATA["Page " + String.valueOf($V{PAGE_NUMBER}) + " of"]]></textFieldExpression> 
+  			</textField> 
+  			<textField isBlankWhenNull="true" evaluationTime="Report"> 
+  				<reportElement x="280" y="20" width="75" height="14"/> 
+  				<textElement/> 
+  				<textFieldExpression class="java.lang.String"><![CDATA[" " + String.valueOf($V{PAGE_NUMBER})]]></textFieldExpression> 
+  			</textField> 
+  		</band> 
+  	</pageFooter> 
+  	<summary> 
+  		<band height="18"> 
+  			<rectangle> 
+  				<reportElement x="0" y="2" width="732" height="14" forecolor="#33cccc" backcolor="#33cccc"/> 
+  				<graphicElement pen="Thin"/> 
+  			</rectangle> 
+  			<staticText> 
+  				<reportElement mode="Opaque" x="0" y="2" width="122" height="14" backcolor="#33cccc"/> 
+  				<textElement textAlignment="Center"> 
+  					<font reportFont="Arial_Bold"/> 
+  				</textElement> 
+  				<text><![CDATA[]]></text> 
+  			</staticText> 
+  			<staticText> 
+  				<reportElement mode="Opaque" x="122" y="2" width="122" height="14" backcolor="#33cccc"/> 
+  				<textElement textAlignment="Center"> 
+  					<font reportFont="Arial_Bold"/> 
+  				</textElement> 
+  				<text><![CDATA[]]></text> 
+  			</staticText> 
+  			<staticText> 
+  				<reportElement mode="Opaque" x="244" y="2" width="122" height="14" backcolor="#33cccc"/> 
+  				<textElement textAlignment="Center"> 
+  					<font reportFont="Arial_Bold"/> 
+  				</textElement> 
+  				<text><![CDATA[]]></text> 
+  			</staticText> 
+  			<staticText> 
+  				<reportElement mode="Opaque" x="366" y="2" width="122" height="14" backcolor="#33cccc"/> 
+  				<textElement textAlignment="Center"> 
+  					<font reportFont="Arial_Bold"/> 
+  				</textElement> 
+  				<text><![CDATA[]]></text> 
+  			</staticText> 
+  			<staticText> 
+  				<reportElement mode="Opaque" x="488" y="2" width="122" height="14" backcolor="#33cccc"/> 
+  				<textElement textAlignment="Center"> 
+  					<font reportFont="Arial_Bold"/> 
+  				</textElement> 
+  				<text><![CDATA[]]></text> 
+  			</staticText> 
+  			<staticText> 
+  				<reportElement mode="Opaque" x="610" y="2" width="122" height="14" backcolor="#33cccc"/> 
+  				<textElement textAlignment="Center"> 
+  					<font reportFont="Arial_Bold"/> 
+  				</textElement> 
+  				<text><![CDATA[]]></text> 
+  			</staticText> 
+  		</band> 
+  	</summary> 
+  </jasperReport> 
+ 
